@@ -1,0 +1,45 @@
+.galeria .foto{
+	float: left;
+	width: 15%;
+	margin:0em 2%;
+	padding: 0.3em;
+}
+
+
+.galeria .foto img{
+	width: 100%;
+	display: block;
+}
+
+.galeria .foto:nth-child(5n+1){
+	margin-left: 3%;
+}
+
+.cuadro5{
+	width: 100%;
+	margin:0;
+	opacity: 0.7;
+}
+
+h5{
+	font-size: 3em;
+	margin: 0.3em 0.5em 0.3em;
+	border-style: dashed;
+	width: 40%;
+	padding: 0.5em;
+}
+
+.botones{
+	background-color:#ff9c3e;
+	width:30%;
+	margin: 5.3em 3em;
+	text-decoration: none;
+	color:white;
+	padding: 0.3em;
+
+}
+
+.pie{
+	display: inline-flex;
+
+}
