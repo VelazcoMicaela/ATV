@@ -10,6 +10,7 @@ body{
 	font-size: 16px;
 	line-height: 20px;
 	font-family: 'Oswald', sans-serif;
+	
 }
 
 nav{
@@ -232,7 +233,7 @@ p{
 
 .colorblanco{
 	background-color:white;
-	width:70%;
+	width:68%;
 	height:55%;
 	position:absolute;
 	top:18%;
@@ -242,9 +243,15 @@ p{
 .lugins{
 	height:5%;
 	margin-left:85%;
-	width:23%;
+	width:10%;
 	top:60%;
 	position: absolute;
+}
+
+.horario{
+	font-weight:400;
+	background-color: #144bff;
+	color:white;
 }
 
 .circulosins{
@@ -330,7 +337,7 @@ p{
 .cajassedes{
 	width:85%;
 	height:25%;
-	margin:1% 9%;
+	margin:1% 0 1% 0;
 }
 
 .lugares{
