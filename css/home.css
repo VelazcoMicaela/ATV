@@ -85,7 +85,7 @@ margin-left:8%; /*preg como alinearlo al medio y ghacer q las img pasen*/
 section{
 	margin:0;
 	padding:0, auto;
-	height:600px;
+	height:720px;
 	position:relative;
 }
 
@@ -212,6 +212,7 @@ p{
 	color: rgba(102,102,255,0.5);
 	margin: 0;
 	left:5%;
+	top:0%;
 }
 
 .nombins{
@@ -337,7 +338,7 @@ p{
 .cajassedes{
 	width:85%;
 	height:25%;
-	margin:1% 0 1% 0;
+	margin:1% 0 1% 3%;
 }
 
 .lugares{

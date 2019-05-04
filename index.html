@@ -14,7 +14,8 @@
 	<link rel="stylesheet" href="css/style10.css" />
 	<link rel="stylesheet" href="css/home.css"/>
 	<link rel="stylesheet" href="css/style_common.css"/>
-	<link rel="stylesheet" href="css/aos.css"/>
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script>
+	<script type="text/javascript" src="js/desplazar.js"> </script>
 	
 </head>
 <body>
@@ -75,29 +76,31 @@
 
 		<img src="img/instructores/01.jpg" class="cuadro2 fondoins"/>
 
-		<h2 class="sec secinst">Sabon Nim</h2>
-		<h3 class="dan">IVDAN</h3>
-			
-		<img src="img/instructores/02.jpg" class="cuadro1 fotoins"/>
-		<h1 class="nombins"> <span class="finita">NATALIA </span>VELAZCO</h1>		
-		<p class="presentacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<div class="colorblanco"></div>
+		<div id="instructor_actual">
+			<h2 class="sec secinst">Sabon Nim</h2>
+			<h3 class="dan">IVDAN</h3>
+	
+			<img src="img/instructores/02.jpg" class="cuadro1 fotoins"/>
+			<h1 class="nombins"> <span class="finita">NATALIA </span>VELAZCO</h1>		
+			<p class="presentacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="colorblanco"></div>
 
-		<div class="lugins">
-			<div class="secsed">
-				<h4 class="horario">HORARIO</h4>
-				<h4 class="domi">Lun-Mier-Vie</h4>
-				<h4 class="domi">18hs a 19.20hs</h4>
-				<h4>Sede CABA Tango gym</h4>
+			<div class="lugins">
+				<div class="secsed">
+					<h4 class="horario">HORARIO</h4>
+					<h4 class="domi">Lun-Mier-Vie</h4>
+					<h4 class="domi">18hs a 19.20hs</h4>
+					<h4>Sede CABA Tango gym</h4>
+				</div>
 			</div>
 		</div>
 
-
 		<div class="caritas">
-			<a class="circulosins elegido" href="index.html"><img src="img/instructores/03.jpg"/></a>
-			<a class="circulosins" href="maty.html"><img src="img/instructores/03.jpg"/></a>
-			<a class="circulosins" href="axel.html"><img src="img/instructores/03.jpg"/></a>
-			<a class="circulosins" href="seba.html"><img src="img/instructores/03.jpg"/></a>
+			<img class="circulosins elegido" src="img/instructores/03.jpg"/>
+			<img id="carita2" class="circulosins" src="img/instructores/03.jpg"/>
+			<img class="circulosins" src="img/instructores/03.jpg"/>
+			<img class="circulosins" src="img/instructores/03.jpg"/>
+		
 		</div>
 	</section>
 
@@ -194,5 +197,4 @@
 	
 	
 </body>
-<script src="aos.js"> </script>
 </html>
