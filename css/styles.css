@@ -1,0 +1,34 @@
+#imagenes{
+  width:100%;
+  height: 540px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(.img/home/foto1.jpg)
+
+}
+#foto1, #foto2, #foto3{
+  display: block;
+  position: absolute;
+}
+.ciscslid{
+	margin: 4% 0 5% 45%;
+}
+.fotoactiva{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#min1 {
+  background-color: #547cff;
+}
+#min2 {
+  background-color: #547cff;
+}
+#min3 {
+   background-color: #547cff;;
+}

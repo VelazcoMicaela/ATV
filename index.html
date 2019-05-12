@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximumscale=1.0; user-scalable=0;" />
 	<title>ATV</title>
 	<link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet"> 
 	<link rel="atv" sizes="180x180" href="img/logoar.png" />
@@ -16,6 +17,36 @@
 	<link rel="stylesheet" href="css/style_common.css"/>
 	<script type="text/javascript" src="js/jquery-1.10.1.min.js"> </script>
 	<script type="text/javascript" src="js/desplazar.js"> </script>
+	
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript">
+
+    	$(document).ready(function(){
+    	var time = 4000;
+    		function animacion(){
+
+    			$("#foto1").animate({"left": "+=100%"}, time, function(){
+            $("#min3").css("filter", "contrast(30%)")
+            $("#min2").css("filter", "contrast(100%)")
+    				$("#foto2").animate({"left": "+=100%"}, time, function(){
+              $("#min1").css("filter", "contrast(30%)")
+              $("#min3").css("filter", "contrast(100%)")
+    					$("#foto3").animate({"left": "+=100%"}, time, function(){
+                $("#min2").css("filter", "contrast(30%)")
+                $("#min1").css("filter", "contrast(100%)")
+    						$("#foto3").css("left", "0")
+    						$("#foto2").css("left", "0")
+    						$("#foto1").css("left", "0")
+
+    						animacion();
+    			})})});
+    		}
+
+    		animacion();
+
+    	});
+    </script>
 	
 </head>
 <body>
@@ -34,7 +65,17 @@
 	</nav>
 
 <section>
-	<img class="homeimg" src="img/home/01.jpg"/>
+	    <div id="imagenes">
+        <img src="img/home/foto3.jpg" id="foto3" />
+        <img src="img/home/foto3.jpg" id="foto2" />
+        <img src="img/home/foto3.jpg" id="foto1" />
+    </div>
+
+    <div class="ciscslid">
+   		<div class="fotoactiva" id="min1"></div>
+    	<div class="fotoactiva" id="min2"></div>
+    	<div class="fotoactiva" id="min3"></div>
+	</div>
 </section>
 
 <!-- COMIENZA ESCUELA -->
@@ -188,11 +229,38 @@
 			</div>
 		</div>
 		
+	</div class="mapas">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13112.772677443976!2d-58.3089576!3d-34.7507265!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1557608210155!5m2!1ses-419!2sar" width="40%" height="450" frameborder="0" allowfullscreen></iframe>	
+	<div class>
+	<h4 class="domi">Estamos para guiarte</h4>
+	<h4>Dejanos tu comentario con la consulta</h4>
+	
+	<form>
+	
+		<p>
+			<label for="Comentario"></label>
+			<textarea name="" id="" placeholder="Comentario"></textarea>
+		</p>
+
+		<p>
+			<input type="text" placeholder="Nombre" />
+		</p>
+
+		<p>
+			<input type="text" placeholder="Apellido" />
+		</p>
+
+		<p>
+			<input type="text" placeholder="Ingrese su mail" />
+		</p>
+
+		<p>
+			<input type="submit" value="Enviar" />
+			<input type="reset" value="Borrar" />
+		</p>
+	
+	</form>
 	</div>
-	
-		<div class="cajamapa">	mapa	</div>
-	
-	
 </section>
 	
 	
