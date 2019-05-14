@@ -1,10 +1,4 @@
-/* font-family: 'Oswald', sans-serif; 
-triada de colores :azul 144bff, 547cff
-				  amarillo:ffd900, ffe23e
-				  naranja:ff7c00, ff9c3e
-stilo lineas punteadas: border-style: dashed;
-clase 10:ancla
-texto en sentido vertical:  writing-mode: vertical-lr;*/
+/* triada de colores :azul 144bff, 547cff*/
 
 body{
 	font-size: 16px;
@@ -26,7 +20,7 @@ nav ul{
 
 nav ul li{
 	display: inline-block;
-	width: 10%;
+	width: 14%;
 }
 
 nav ul li a{
@@ -40,8 +34,7 @@ nav ul li a{
 }
 
 .menu{
-	float:left;
-	width:80%;
+	width:100%;
 }
 
 nav ul li a:hover{
@@ -91,7 +84,6 @@ section{
 
 .cuadro2{
 	width: 100%;
-	height:35%;
 	margin:0;
 	opacity: 0.7;
 }
@@ -135,7 +127,7 @@ h2{
 .cuadro3 ul li{
 	font-weight:700;
 	font-size:4em;
-	margin:1.2em 0;
+	margin:1.3em 0;
 	top:1em;
 	color: rgba(100,100,100,0.2);
 }
@@ -165,8 +157,8 @@ h1{
 }
 
 .titesc{
-	top:32%;
-	left:38%;
+	top:50%;
+	left:35%;
 }
 
 .finita{
@@ -183,8 +175,8 @@ p{
 }
 
 .pesc{
-	top:43%;
-	left:45%;
+	top:60%;
+	left:42%;
 }
 
 .centro{
@@ -369,13 +361,336 @@ h4{
 	flex-direction: column;
 }
 
-.cajamapa{
-background-color:grey;
-height:45%;
-margin-top:2em;
+.mapasyform{
+	display: inline-flex;
+	margin:2em 0  0 2em;
+	width:90%;
+}
 
-{
+.formytext{
+	width:30%;
+	margin-left:2em;
+}
+
+#coment{
+	border:none;
+	border-bottom:1px solid #547cff;
+	border-left:1px solid #547cff;
+	margin:1em 0;
+	width:90%;
+	height:1.6em;
+	background-color:white;
+	padding-left:0.5em;
+}
+
+.nomap{
+	display: inline-flex;
+	width:50%;
+}
+
+.envbor{
+	display: inline-flex;
+}
+
+#envibor{
+	background-color:#547cff;
+	color:white;
+	border-radius:20%;
+	padding:0.3em 1em 0.3em;
+	margin-left:0.5em;
+}
 
 /*--FIN SEDES--*/
 
+/*inicio media 960px*/
 
+@media screen and (max-width: 960px){
+
+section{
+	box-sizing: border-box;
+}
+
+.cuadro3 ul li{
+	font-size: 2.5em;
+}
+
+.agrandar{
+	margin-top:30%;
+	font-size:3.5em;
+}
+
+.pesc{
+	top:40%;
+	margin-left:15%;
+}	
+
+.titesc{
+ margin-left:10%;
+ top:30%;
+}
+
+cuadro1{
+	height:200px;
+	width:200px;
+}
+
+/*--COMIENZO INSTRUCTORES--*/
+
+
+.nombins{
+	left:40%;
+}
+
+.presentacion{
+	left:60%;
+}
+
+.colorblanco{
+	top:19%;
+	left:35%;
+}
+
+.circulosins:first-child{
+	margin-left: 5%;
+}
+
+.lugins{
+	margin-left:75%;
+	top:70%;
+	width:20%;
+}
+
+.colorblanco{
+	width: 65%;
+}
+
+/*--FIN INSTRUCTORES--*/
+
+.cajassedes{
+	width:97%;
+}
+
+}
+
+/*inicio media 768px*/
+
+@media screen and (max-width: 768px){
+
+section{
+	box-sizing: border-box;
+}
+
+.cuadro3 ul li{
+	color:white;
+}
+
+.agrandar{
+	color:white;
+}
+
+.centro{
+	margin-left: 5%;
+}
+
+.fotoesc{
+	top:0%;
+}
+
+.pesc{
+	top:30%;
+	margin-left:13%;
+	width:40%;
+}	
+
+.titesc{
+ margin-left:0%;
+ top:20%;
+}
+
+cuadro1{
+	height:150px;
+	width:150px;
+}
+
+/*--COMIENZO INSTRUCTORES--*/
+ 
+.dan{
+	 writing-mode: horizontal-tb;
+	 font-size: 3em;
+	 opacity: 0;
+}
+
+.fotoins {
+	left: 0%;
+	height: 250px;
+	width: 250px;
+	border: 1em solid white;;
+}
+
+.nombins{
+	left:22%;
+}
+
+.presentacion{
+	left:42%;
+	top:34%;
+	width:56%;
+}
+
+.colorblanco{
+	left:16%;
+	width: 84%;
+}
+
+.lugins{
+	margin-left: 20%;
+	top: 60%;
+	width: 55%;
+}
+
+/*--FIN INSTRUCTORES--*/
+.view .mask, .view .content {
+top: 6%;
+}
+
+.lugares {
+	width:49%;
+}
+
+.mapasyform {
+    margin-left: 1em;
+    margin-top: 33%;
+}
+
+iframe{
+	 width:50%;
+	 height:270px;
+}
+
+.formytext {
+    width: 45%;
+ }
+
+}
+
+/*inicio media 480px*/
+@media screen and (max-width: 480px){
+.cuadro2{
+	opacity: 0;
+}
+
+.secesc {
+    top: -10%;
+}
+
+.centro{
+	top: -10px;
+	position:absolute;
+}
+
+.fotoesc{
+	top:-10%;
+	margin-left:10%;
+}
+
+.titesc{
+ top: 75%;
+ margin-left:-21%;
+ }
+ 
+ .pesc{
+	top: 96%;
+	margin-left: -34%;
+	width:100%;
+	text-align: center;
+}
+
+/*--COMIENZO INSTRUCTORES--*/
+
+.fotoins {
+	left: 18%;
+	top: 6%;
+}
+
+.nombins{
+	top: 30%;
+	left: 26%;
+	line-height: 59px;
+}
+
+.presentacion{
+	left: 7%;
+	top: 50%;
+	width: 90%;
+	text-align: center;
+}
+
+
+.lugins{
+	margin-left: 15%;
+	top: 76%;
+	width: 80%;
+	text-align: center;
+}
+
+.circulosins{
+	margin:12em 1em;
+}
+
+/*--FIN INSTRUCTORES--*/
+.titgal {
+    top: 15%;
+    line-height: 59px;
+    text-align: center;
+}
+
+.cajagaleria {
+    height: 140%;
+}
+
+.view {
+    width: 98%;
+    height: 33%;
+    margin: 8.5%;
+}
+
+.titsed {
+    top: 68%;
+    margin-left: 0.3em;
+    line-height: 59px;
+}
+
+.partido{
+	margin:0;
+}
+
+.lugares:first-child {
+    margin-top: 41%;
+   }
+
+.lugares {
+	width: 80%;
+	margin: 1% 3% 0% 3%;
+	text-align: center;
+}
+
+.secsed{
+	margin: 1em 0em 0em 5em;
+}
+
+.mapasyform {
+   margin-top: 211%;
+   display:block;
+}
+
+iframe{
+	 width:100%;
+	 height:270px;
+}
+
+.formytext {
+    width: 90%;
+ }
+
+
+}

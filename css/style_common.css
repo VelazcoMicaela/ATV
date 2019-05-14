@@ -58,3 +58,12 @@
    -moz-box-shadow: 0 0 5px #000;
    box-shadow: 0 0 5px #000;
 }
+
+/*inicio media 480px*/
+@media screen and (max-width: 480px){
+.view {
+    width: 95%;
+    height: 31%;
+	margin: 3.5% 0% 2% 7%;
+}
+}
