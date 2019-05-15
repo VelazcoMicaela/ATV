@@ -43,7 +43,7 @@ $(document).ready(function(){
 			$("#carita2").addClass("elegido");
 			var text = "<h2 class=\"sec secinst\">Sabon</h2>"
 				+ "<h3 class=\"dan\">IIIDAN</h3>"
-				+ "<img src=\"img/instructores/02.jpg\" class=\"cuadro1 fotoins\"/>"
+				+ "<img src=\"img/instructores/06.jpg\" class=\"cuadro1 fotoins\"/>"
 				+ "<h1 class=\"nombins\"> <span class=\"finita\">MATIAS </span>VELAZCO</h1>"
 				+ "<p class=\"presentacion\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
 				+ "<div class=\"colorblanco\"></div> "
@@ -66,7 +66,7 @@ $(document).ready(function(){
 			$("#carita3").addClass("elegido");
 			var text = "<h2 class=\"sec secinst\">Sabon</h2>"
 				+ "<h3 class=\"dan\">IIIDAN</h3>"				
-				+ "<img src=\"img/instructores/02.jpg\" class=\"cuadro1 fotoins\"/>"
+				+ "<img src=\"img/instructores/04.jpg\" class=\"cuadro1 fotoins\"/>"
 				+ "<h1 class=\"nombins\"> <span class=\"finita\">AXEL </span>CHAVÉZ</h1>"
 				+ "<p class=\"presentacion\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
 				+ "<div class=\"colorblanco\"></div> "
@@ -89,7 +89,7 @@ $(document).ready(function(){
 			$("#carita4").addClass("elegido");
 			var text = "<h2 class=\"sec secinst\">Sabon</h2>"
 				+ "<h3 class=\"dan\">IDAN</h3>"				
-				+ "<img src=\"img/instructores/02.jpg\" class=\"cuadro1 fotoins\"/>"
+				+ "<img src=\"img/instructores/08.jpg\" class=\"cuadro1 fotoins\"/>"
 				+ "<h1 class=\"nombins\"> <span class=\"finita\">SEBASTIAN </span>LASSERRE</h1>"
 				+ "<p class=\"presentacion\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
 				+ "<div class=\"colorblanco\"></div> "

@@ -73,6 +73,10 @@ height:85%;
 margin-left:8%;
 }
 
+#imagenes{
+	background-image: url("img/home/foto1.jpg");
+}
+
 /*--COMIENZO ESCUELA--*/
 
 section{
